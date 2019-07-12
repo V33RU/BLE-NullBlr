@@ -4,6 +4,7 @@ IoT Workshop - BLE - Understanding and Exploiting
 
 
 ## Resources
+- CTF-Resource - https://github.com/hackgnar/ble_ctf
 - https://github.com/nkolban/esp32-snippets
 - https://lastminuteengineers.com/esp32-arduino-ide-tutorial/
 
@@ -14,3 +15,4 @@ IoT Workshop - BLE - Understanding and Exploiting
 - bettercap	https://www.bettercap.org/installation/	
 - btlejack	https://github.com/virtualabs/btlejack	
 - nrfconnect https://www.nordicsemi.com/Software-and-Tools/Development-Tools/nRF-Connect-for-desktop/Download
+
