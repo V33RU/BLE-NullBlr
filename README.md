@@ -8,8 +8,8 @@ IoT Workshop - BLE - Understanding and Exploiting
 - https://lastminuteengineers.com/esp32-arduino-ide-tutorial/
 
 ## Download the tools 
-- bluez	apt install bluez	hcitool and gatttool and l2cap and l2 ping will install 
-- hcidump 	sudo apt-get install bluez-hcidump	hcidump --raw
+- bluez	apt  -- **install bluez	hcitool and gatttool and l2cap and l2 ping will install 
+- hcidump 	--- **sudo apt-get install bluez-hcidump	hcidump --raw
 - btproxy	https://github.com/conorpp/btproxy	To run a simple MiTM or proxy on two devices,
 - bettercap	https://www.bettercap.org/installation/	
 - btlejack	https://github.com/virtualabs/btlejack	
