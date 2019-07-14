@@ -26,5 +26,5 @@ IoT Workshop - BLE - Understanding and Exploiting
 
 
 
-## Challenge 1:
-*** identify the device information ***
+## Challenge 1: Identify the device information
+
