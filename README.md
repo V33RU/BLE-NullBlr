@@ -23,8 +23,10 @@ IoT Workshop - BLE - Understanding and Exploiting
     
 - btlejack	https://github.com/virtualabs/btlejack	
 - nrfconnect https://www.nordicsemi.com/Software-and-Tools/Development-Tools/nRF-Connect-for-desktop/Download 
-
+- Arduino IDE    https://www.arduino.cc/en/guide/linux
+- Ubuntu 18.04 
 
 
 ## Challenge 1: Identify the device information
 
+- Flash this code to ESP32 BLE Module one (https://github.com/V33RU/BLE-NullBlr/blob/master/BLE%20Server)
