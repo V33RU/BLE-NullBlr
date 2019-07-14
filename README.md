@@ -16,7 +16,7 @@ IoT Workshop - BLE - Understanding and Exploiting
        - to get info about the devics  - #hcitool leinfo $MAC
 - hcidump 
     - sudo apt-get install bluez-hcidump	
-      usage 
+    - usage 
        - hcidump --raw
 - btproxy	https://github.com/conorpp/btproxy	To run a simple MiTM or proxy on two devices
 - bettercap	https://www.bettercap.org/installation/	
@@ -24,3 +24,7 @@ IoT Workshop - BLE - Understanding and Exploiting
 - btlejack	https://github.com/virtualabs/btlejack	
 - nrfconnect https://www.nordicsemi.com/Software-and-Tools/Development-Tools/nRF-Connect-for-desktop/Download 
 
+
+
+## Challenge 1:
+*** identify the device information ***
