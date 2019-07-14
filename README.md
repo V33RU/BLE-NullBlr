@@ -30,3 +30,8 @@ IoT Workshop - BLE - Understanding and Exploiting
 ## Challenge 1: Identify the device information
 
 - Flash this code to ESP32 BLE Module one (https://github.com/V33RU/BLE-NullBlr/blob/master/BLE%20Server)
+- Scan device 
+    - sudo hcitool lescan 
+    - sudo hcitool leinfo $MAC
+            - Results As shown below image you may get BLE version and vendor information and GAP services info 
+            
