@@ -12,8 +12,8 @@ IoT Workshop - BLE - Understanding and Exploiting
 - bluez 
     - apt get install bluez  - (hcitool and gatttool will install)
     - usage
-       - to scan le devices surroundin - #hcitool lescan 
-       - to get info about the devics  - #hcitool leinfo $MAC
+       - to scan le devices surrounding - #hcitool lescan 
+       - to get info about the devices  - #hcitool leinfo $MAC
 - hcidump 
     - sudo apt-get install bluez-hcidump	
     - usage 
