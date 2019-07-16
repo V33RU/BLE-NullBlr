@@ -34,4 +34,5 @@ IoT Workshop - BLE - Understanding and Exploiting
     - sudo hcitool lescan 
     - sudo hcitool leinfo $MAC
             - Results As shown below image you may get BLE version and vendor information and GAP services info 
+            ![](/images/Selection_010.png)
             
