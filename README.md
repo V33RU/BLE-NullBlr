@@ -36,3 +36,8 @@ IoT Workshop - BLE - Understanding and Exploiting
             - Results As shown below image you may get BLE version and vendor information and GAP services info 
             ![](/images/Selection_010.png)
             
+## Challenge 2: understand difference between Classsic Bluetooth and BLE (Bluetooth Low Energy)
+
+## Challenge 3: Check the Services in BLE and check for Read/Write data
+
+## Challenge 4: Try to overwrite or change the value of Service 
