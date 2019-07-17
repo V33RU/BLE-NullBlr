@@ -27,6 +27,8 @@ IoT Workshop - BLE - Understanding and Exploiting
 - Ubuntu 18.04 
 
 
+--------------------------------------------------------------------------------------------------------------
+
 ## Challenge 1: Identify the device information
 
 - Flash this code to ESP32 BLE Module one (https://github.com/V33RU/BLE-NullBlr/blob/master/BLE%20Server)
@@ -36,6 +38,7 @@ IoT Workshop - BLE - Understanding and Exploiting
             - Results As shown below image you may get BLE version and vendor information and GAP services info 
             ![](/images/Selection_010.png)
             
+----------------------------------------------------------------------------------------------------------------           
 ## Challenge 2: understand difference between Classsic Bluetooth and BLE (Bluetooth Low Energy) Security
 
 - **Classic Bluetooth** 
