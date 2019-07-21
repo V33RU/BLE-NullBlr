@@ -44,7 +44,7 @@ IoT Workshop - BLE - Understanding and Exploiting
 - **Classic Bluetooth** 
     - Which is not Secure 
 - **Bluetooth Low Energy**
-    - 
+    - which is secure
 
 ## Challenge 3: Check the Services in BLE and check for Read/Write data
 
