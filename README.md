@@ -7,6 +7,7 @@ IoT Workshop - BLE - Understanding and Exploiting
 - CTF-Resource - https://github.com/hackgnar/ble_ctf
 - https://github.com/nkolban/esp32-snippets
 - https://lastminuteengineers.com/esp32-arduino-ide-tutorial/
+- slides - https://speakerdeck.com/v33ru/ble-bluetooth-low-energy-exploitation
 
 ## Download the tools
 - bluez 
