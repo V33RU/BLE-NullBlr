@@ -50,7 +50,11 @@ IoT Workshop - BLE - Understanding and Exploiting
 ## Challenge 2: understand difference between Classsic Bluetooth and BLE (Bluetooth Low Energy) Security
 
 - **Classic Bluetooth** 
-    - Which is not Secure 
+
+. Classic Bluetooth mostly like we can call as a old Bluetooth, which we used for sending data , mostly this communication is UN-encrypted and non-secure one
+
+Basic practical Approach use the Bluetooth General code flash into the ESP32(https://github.com/V33RU/BLE-NullBlr/blob/master/Bluetooth%20Connection%20-%20General)
+
 - **Bluetooth Low Energy**
     - which is secure
 
