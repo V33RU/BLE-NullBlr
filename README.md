@@ -27,6 +27,13 @@ IoT Workshop - BLE - Understanding and Exploiting
 - Arduino IDE    https://www.arduino.cc/en/guide/linux
 - Ubuntu 18.04 
 
+------------------------------------------------------------------------------------------------------------
+
+## Rules of Flashing ESP32 board from the Arduino IDE:
+1.Select Board>esp32devmodule 
+2.Check the tools>port>Select /dev/ttyUSB0 (windows - com **)\
+3.Select upload speed>115200 (default)
+4.Let it be default other settings 
 
 --------------------------------------------------------------------------------------------------------------
 
