@@ -49,13 +49,22 @@ IoT Workshop - BLE - Understanding and Exploiting
 ----------------------------------------------------------------------------------------------------------------           
 ## Challenge 2: understand difference between Classsic Bluetooth and BLE (Bluetooth Low Energy) Security
 
-        ![](/images/Picture1.png)
+   ![](/images/Picture1.png)
 
 - **Classic Bluetooth** 
     Classic Bluetooth mostly like we can call as a old Bluetooth, which we used for sending data , mostly this communication is UN-encrypted and non-secure one
 
 Basic practical Approach use the Bluetooth General code flash into the ESP32(https://github.com/V33RU/BLE-NullBlr/blob/master/Bluetooth%20Connection%20-%20General)
 ![](/images/bluetooth%20general.png)
+
+Don’t forget to change the tools options according board requirements
+One flash powerup the device and try connect with the mobile device 
+
+Don’t try to connect with the NRF connect app and the code related basic Bluetooth not BLE 
+
+Goto bluetooth settings in mobile
+
+![](/images/BLK-2.png)
 
 - **Bluetooth Low Energy**
     - which is secure
