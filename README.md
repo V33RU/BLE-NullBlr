@@ -73,8 +73,8 @@ Goto bluetooth settings in mobile
   ![](/images/BLE.png)
         
  These will be very basic difference in security between the Classic & BLE later on Classic Bluetooth will also included the pairing and key authentication as well 
-BLE as came more advance features in the device encryption , authentication etc, This is not exact difference this is jus for an idea , 
-Soon i will completely write diffrentiation between Classic Bluetooth and Smart BLE with Practical Example
+BLE as came more advance features in the device encryption , authentication etc, This is not exact difference this is just for an idea , 
+Soon i will completely write difference between Classic Bluetooth and Smart BLE with Practical Example
 
 
 ## Challenge 3: Check the Services in BLE and check for Read/Write data
