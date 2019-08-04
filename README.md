@@ -104,11 +104,35 @@ Soon i will completely write difference between Classic Bluetooth and Smart BLE 
 `Once flashed it after open the NRF connect and check for what are all information is available` 
 ![](/images/uuid-apk.png)
 
-`GATT Service of the battery, 0x18F and lets check for the read and write data 
+`GATT Service of the battery, 0x18F and lets check for the read and write data` 
 
-Connect to the device` 
-
-
+`Connect to the device` 
 
 
-## Challenge 4: Try to overwrite or change the value of Service 
+## Challenge 4: Try to overwrite or change the value of Service
+
+Here we are going to use the gatttool from the terminal or we can use NRF connect as well but for me gatttool from terminal more familiar , We got to know finally read and write data of battery service , the fianl part is change the values to send wrong to data mobile notification 
+
+Lets get connect first 
+![](/images/f1.png)
+
+
+As we see in the NRF connect app WRITE handle 0x2a19 in the UUID value it is howing as well to usnderstand more aboutthe UUID (https://www.uuidgenerator.net/)
+Will help it more 
+
+Lets start handle will give yout the descriptor value and 
+Properties will tells whether it is READ or WRITE
+![](/images/f2.img)
+
+It is failed with when you running read request on the property of write handle this way we can confirm the read and write handles when we are not getting any information from NRF connect app
+
+
+Right now we can change the values to and it will indicate different battery values if you write right one 
+![](/images/f3.img)
+
+This is just an example not exact writeup ,, all this article just educational purpose only ,, 
+
+Notes: 1. to understand backed open wireshark select bluetooth and the see the traffic is going encrypted or not 
+
+3.Learn more about the UUID values 
+4.Dig Deep the services information as much as you can 
