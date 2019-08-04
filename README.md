@@ -51,7 +51,7 @@ IoT Workshop - BLE - Understanding and Exploiting
    
  
 - **Classic Bluetooth** 
-   -`Classic Bluetooth mostly like we can call as a old Bluetooth, which we used for sending data , mostly this communication is UN-encrypted and non-secure one`-
+   ```Classic Bluetooth mostly like we can call as a old Bluetooth, which we used for sending data , mostly this communication is UN-encrypted and non-secure one```
                              ![](/images/Picture1.png)
 
 `Basic practical Approach use the Bluetooth General code flash into the ESP32(https://github.com/V33RU/BLE-NullBlr/blob/master/Bluetooth%20Connection%20-%20General)`
