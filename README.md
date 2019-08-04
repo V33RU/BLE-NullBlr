@@ -82,8 +82,11 @@ Soon i will completely write difference between Classic Bluetooth and Smart BLE 
 
 - 1.Android
 - 2.Windows / Linux Desktop Apps available`
+
 ![](/images/NRF1.png)
+
 ![](/images/NRF2.png)
+
 `Scan for surrounding Bluetooth devices to` 
 
 `Before going to start about the 3rd challenge we need to know little depth about the BLE please the read slides in the github or study about the GAP and GATT`
