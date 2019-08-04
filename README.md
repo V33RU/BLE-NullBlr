@@ -57,18 +57,15 @@ IoT Workshop - BLE - Understanding and Exploiting
 `Basic practical Approach use the Bluetooth General code flash into the ESP32(https://github.com/V33RU/BLE-NullBlr/blob/master/Bluetooth%20Connection%20-%20General)`
         
  ![](/images/bluetooth%20general.png)
-
-`Don’t forget to change the tools options according board requirements
-One flash powerup the device and try connect with the mobile device 
-
-Don’t try to connect with the NRF connect app and the code related basic Bluetooth not BLE 
-
-Goto bluetooth settings in mobile`
+`Don’t forget to change the tools options according board requirements`
+`Once flash powerup the device and try connect with the mobile device` 
+`Don’t try to connect with the NRF connect app and the code related basic Bluetooth not BLE` 
+`Goto bluetooth settings in mobile`
        
   ![](/images/BLK-2.png)
 
 - **Bluetooth Low Energy**
-        `BLE stands for Bluetooth Low Energy (Bluetooth LE, and marketed as Bluetooth Smart). BLE is a form of wireless communication designed especially for short-range communication. BLE is very similar to Wi-Fi in the sense that it allows devices to communicate with each other.`
+        `BLE stands for Bluetooth Low Energy (Bluetooth LE, and marketed as Bluetooth Smart). BLE is a form of wireless communication designed especially for short-range communication. BLE is very similar to Wi-Fi in the sense that it allows devices to communicate with each other`
         
   ![](/images/BLE.png)
         
@@ -79,21 +76,19 @@ Soon i will completely write difference between Classic Bluetooth and Smart BLE 
 
 ## Challenge 3: Check the Services in BLE and check for Read/Write data
 
-``From the 1st challenge will get to know how to get the BAddr or MAC addr of Bluetooth device Use the NRF connect app and or gatttool or any other tool which we can able to see the read and write handles will help us to do next level testing
+        `From the 1st challenge will get to know how to get the BAddr or MAC addr of Bluetooth device Use the NRF connect app and or gatttool or any other tool which we can able to see the read and write handles will help us to do next level testing`
 
-Lets start install NRF connect from play store and it is helps us see the read/write handles very easily , not only that it will give more other information as well ,like shown in image``
+        `Lets start install NRF connect from play store and it is helps us see the read/write handles very easily , not only that it will give more other information as well ,like shown in image`
 
-
-`- 1.Android
+- 1.Android
 - 2.Windows / Linux Desktop Apps available`
 ![](/images/NRF1.png)
 ![](/images/NRF2.png)
-`Scan for surrounding Bluetooth devices to 
+`Scan for surrounding Bluetooth devices to` 
 
+`Before going to start about the 3rd challenge we need to know little depth about the BLE please the read slides in the github or study about the GAP and GATT`
 
- Before going to start about the 3rd challenge we need to know little depth about the BLE please the read slides in the github or study about the GAP and GATT
-
-Flash the battery.ino (https://github.com/V33RU/BLE-NullBlr/blob/master/Ble-sec1.ino) and open the NRF connect app check for the BLE Battery ,`
+`Flash the battery.ino (https://github.com/V33RU/BLE-NullBlr/blob/master/Ble-sec1.ino) and open the NRF connect app check for the BLE Battery`
 ![](/images/ble battery.png)
 
 
