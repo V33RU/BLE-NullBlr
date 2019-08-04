@@ -79,9 +79,9 @@ Soon i will completely write difference between Classic Bluetooth and Smart BLE 
 
 ## Challenge 3: Check the Services in BLE and check for Read/Write data
 
-`From the 1st challenge will get to know how to get the BAddr or MAC addr of Bluetooth device Use the NRF connect app and or gatttool or any other tool which we can able to see the read and write handles will help us to do next level testing
+``From the 1st challenge will get to know how to get the BAddr or MAC addr of Bluetooth device Use the NRF connect app and or gatttool or any other tool which we can able to see the read and write handles will help us to do next level testing
 
-Lets start install NRF connect from play store and it is helps us see the read/write handles very easily , not only that it will give more other information as well ,like shown in image` 
+Lets start install NRF connect from play store and it is helps us see the read/write handles very easily , not only that it will give more other information as well ,like shown in image``
 
 
 `- 1.Android
