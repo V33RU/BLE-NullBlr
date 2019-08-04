@@ -122,13 +122,13 @@ Will help it more
 
 Lets start handle will give yout the descriptor value and 
 Properties will tells whether it is READ or WRITE
-![](/images/f2.img)
+![](/images/f2.png)
 
 It is failed with when you running read request on the property of write handle this way we can confirm the read and write handles when we are not getting any information from NRF connect app
 
 
 Right now we can change the values to and it will indicate different battery values if you write right one 
-![](/images/f3.img)
+![](/images/f3.png)
 
 This is just an example not exact writeup ,, all this article just educational purpose only ,, 
 
