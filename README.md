@@ -92,6 +92,7 @@ Soon i will completely write difference between Classic Bluetooth and Smart BLE 
 `Before going to start about the 3rd challenge we need to know little depth about the BLE please the read slides in the github or study about the GAP and GATT`
 
 `Flash the battery.ino (https://github.com/V33RU/BLE-NullBlr/blob/master/Ble-sec1.ino) and open the NRF connect app check for the BLE Battery`
+
 ![](/images/ble battery.png)
 
 
