@@ -54,7 +54,7 @@ IoT Workshop - BLE - Understanding and Exploiting
    ```Classic Bluetooth mostly like we can call as a old Bluetooth, which we used for sending data , mostly this communication is UN-encrypted and non-secure one```
                              ![](/images/Picture1.png)
 
-`Basic practical Approach use the Bluetooth General code flash into the ESP32(https://github.com/V33RU/BLE-NullBlr/blob/master/Bluetooth%20Connection%20-%20General)`
+`Basic practical Approach use the Bluetooth General code flash into the ESP32 (https://github.com/V33RU/BLE-NullBlr/blob/master/Bluetooth%20Connection%20-%20General)`
         
  ![](/images/bluetooth%20general.png)
 `Don’t forget to change the tools options according board requirements`
@@ -115,20 +115,22 @@ Soon i will completely write difference between Classic Bluetooth and Smart BLE 
 `Here we are going to use the gatttool from the terminal or we can use NRF connect as well but for me gatttool from terminal more familiar , We got to know finally read and write data of battery service , the fianl part is change the values to send wrong to data mobile notification` 
 
 `Lets get connect first` 
-![](/images/f1.png)
 
+![](/images/f1.png)
 
 `As we see in the NRF connect app WRITE handle 0x2a19 in the UUID value it is howing as well to usnderstand more aboutthe UUID (https://www.uuidgenerator.net/)
 Will help it more`
 
 `Lets start handle will give yout the descriptor value and 
 Properties will tells whether it is READ or WRITE`
+
 ![](/images/f2.png)
 
 `It is failed with when you running read request on the property of write handle this way we can confirm the read and write handles when we are not getting any information from NRF connect app`
 
 
 `Right now we can change the values to and it will indicate different battery values if you write right one` 
+
 ![](/images/f3.png)
 
 `This is just an example not exact writeup ,, all this article just educational purpose only,,` 
