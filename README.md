@@ -54,61 +54,61 @@ IoT Workshop - BLE - Understanding and Exploiting
    `Classic Bluetooth mostly like we can call as a old Bluetooth, which we used for sending data , mostly this communication is UN-encrypted and non-secure one`
                              ![](/images/Picture1.png)
 
-Basic practical Approach use the Bluetooth General code flash into the ESP32(https://github.com/V33RU/BLE-NullBlr/blob/master/Bluetooth%20Connection%20-%20General)
+`Basic practical Approach use the Bluetooth General code flash into the ESP32(https://github.com/V33RU/BLE-NullBlr/blob/master/Bluetooth%20Connection%20-%20General)`
         
  ![](/images/bluetooth%20general.png)
 
-Don’t forget to change the tools options according board requirements
+`Don’t forget to change the tools options according board requirements
 One flash powerup the device and try connect with the mobile device 
 
 Don’t try to connect with the NRF connect app and the code related basic Bluetooth not BLE 
 
-Goto bluetooth settings in mobile
+Goto bluetooth settings in mobile`
        
   ![](/images/BLK-2.png)
 
 - **Bluetooth Low Energy**
-        BLE stands for Bluetooth Low Energy (Bluetooth LE, and marketed as Bluetooth Smart). BLE is a form of wireless communication designed especially for short-range communication. BLE is very similar to Wi-Fi in the sense that it allows devices to communicate with each other.
+        `BLE stands for Bluetooth Low Energy (Bluetooth LE, and marketed as Bluetooth Smart). BLE is a form of wireless communication designed especially for short-range communication. BLE is very similar to Wi-Fi in the sense that it allows devices to communicate with each other.`
         
   ![](/images/BLE.png)
         
- These will be very basic difference in security between the Classic & BLE later on Classic Bluetooth will also included the pairing and key authentication as well 
+ `These will be very basic difference in security between the Classic & BLE later on Classic Bluetooth will also included the pairing and key authentication as well 
 BLE as came more advance features in the device encryption , authentication etc, This is not exact difference this is just for an idea , 
-Soon i will completely write difference between Classic Bluetooth and Smart BLE with Practical Example
+Soon i will completely write difference between Classic Bluetooth and Smart BLE with Practical Example`
 
 
 ## Challenge 3: Check the Services in BLE and check for Read/Write data
 
-From the 1st challenge will get to know how to get the BAddr or MAC addr of Bluetooth device Use the NRF connect app and or gatttool or any other tool which we can able to see the read and write handles will help us to do next level testing
+`From the 1st challenge will get to know how to get the BAddr or MAC addr of Bluetooth device Use the NRF connect app and or gatttool or any other tool which we can able to see the read and write handles will help us to do next level testing
 
-Lets start install NRF connect from play store and it is helps us see the read/write handles very easily , not only that it will give more other information as well ,like shown in image 
+Lets start install NRF connect from play store and it is helps us see the read/write handles very easily , not only that it will give more other information as well ,like shown in image` 
 
 
-- 1.Android 
-- 2.Windows / Linux Desktop Apps available 
+`- 1.Android
+- 2.Windows / Linux Desktop Apps available`
 ![](/images/NRF1.png)
 ![](/images/NRF2.png)
-Scan for surrounding Bluetooth devices to 
+`Scan for surrounding Bluetooth devices to 
 
 
  Before going to start about the 3rd challenge we need to know little depth about the BLE please the read slides in the github or study about the GAP and GATT
 
-Flash the battery.ino (https://github.com/V33RU/BLE-NullBlr/blob/master/Ble-sec1.ino) and open the NRF connect app check for the BLE Battery , 
+Flash the battery.ino (https://github.com/V33RU/BLE-NullBlr/blob/master/Ble-sec1.ino) and open the NRF connect app check for the BLE Battery ,`
 ![](/images/ble battery.png)
 
 
-All services developed by bluetooth SIG (Special Interest Group) only so lets check the battery gatt service
+`All services developed by bluetooth SIG (Special Interest Group) only so lets check the battery gatt service`
 ![](/images/gatt-service.png)
 
-Just click on the code to see more details about the code, 
+`Just click on the code to see more details about the code,` 
 ![](/images/UUID.png)
 
-Once flashed it after open the NRF connect and check for what are all information is available 
+`Once flashed it after open the NRF connect and check for what are all information is available` 
 ![](/images/uuid-apk.png)
 
-GATT Service of the battery, 0x18F and lets check for the read and write data 
+`GATT Service of the battery, 0x18F and lets check for the read and write data 
 
-Connect to the device 
+Connect to the device` 
 
 
 
