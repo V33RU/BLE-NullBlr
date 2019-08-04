@@ -84,6 +84,33 @@ From the 1st challenge will get to know how to get the BAddr or MAC addr of Blue
 Lets start install NRF connect from play store and it is helps us see the read/write handles very easily , not only that it will give more other information as well ,like shown in image 
 
 
-1.Android 
-2.Windows / Linux Desktop Apps available 
+- 1.Android 
+- 2.Windows / Linux Desktop Apps available 
+![](/images/NRF1.png)
+![](/images/NRF2.png)
+Scan for surrounding Bluetooth devices to 
+
+
+ Before going to start about the 3rd challenge we need to know little depth about the BLE please the read slides in the github or study about the GAP and GATT
+
+Flash the battery.ino (https://github.com/V33RU/BLE-NullBlr/blob/master/Ble-sec1.ino) and open the NRF connect app check for the BLE Battery , 
+![](/images/ble battery.png)
+
+
+All services developed by bluetooth SIG (Special Interest Group) only so lets check the battery gatt service
+![](/images/gatt-service.png)
+
+Just click on the code to see more details about the code, 
+![](/images/UUID.png)
+
+Once flashed it after open the NRF connect and check for what are all information is available 
+![](/images/uuid-apk.png)
+
+GATT Service of the battery, 0x18F and lets check for the read and write data 
+
+Connect to the device 
+
+
+
+
 ## Challenge 4: Try to overwrite or change the value of Service 
