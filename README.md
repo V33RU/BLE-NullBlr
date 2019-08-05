@@ -97,9 +97,11 @@ Soon i will completely write difference between Classic Bluetooth and Smart BLE 
 
 
 `All services developed by bluetooth SIG (Special Interest Group) only so lets check the battery gatt service`
+
 ![](/images/gatt-service.png)
 
 `Just click on the code to see more details about the code,` 
+
 ![](/images/UUID.png)
 
 `Once flashed it after open the NRF connect and check for what are all information is available` 
@@ -135,7 +137,7 @@ Properties will tells whether it is READ or WRITE`
 
 `This is just an example not exact writeup ,, all this article just educational purpose only,,` 
 
-###`Notes:`###
-`1. to understand backed open wireshark select bluetooth and the see the traffic is going encrypted or not` 
-`2.Learn more about the UUID values` 
-`3.Dig Deep the services information as much as you can` 
+#### Notes: 
+- `1. to understand backed open wireshark select bluetooth and the see the traffic is going encrypted or not` 
+- `2.Learn more about the UUID values` 
+- `3.Dig Deep the services information as much as you can` 
