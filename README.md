@@ -93,7 +93,7 @@ Soon i will completely write difference between Classic Bluetooth and Smart BLE 
 
 `Flash the battery.ino (https://github.com/V33RU/BLE-NullBlr/blob/master/Ble-sec1.ino) and open the NRF connect app check for the BLE Battery`
 
-![](/images/ble battery.png)
+![](/images/ble-battery.png)
 
 
 `All services developed by bluetooth SIG (Special Interest Group) only so lets check the battery gatt service`
